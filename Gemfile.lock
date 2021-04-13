@@ -13,7 +13,7 @@ GEM
       xpath (~> 2.0)
     childprocess (0.7.1)
       ffi (~> 1.0, >= 1.0.11)
-    coderay (1.1.2)
+    coderay (1.1.3)
     cucumber (2.4.0)
       builder (>= 2.1.2)
       cucumber-core (~> 1.5.0)
@@ -26,19 +26,21 @@ GEM
       gherkin (~> 4.0)
     cucumber-wire (0.0.1)
     diff-lcs (1.3)
+    ffi (1.9.18)
     ffi (1.9.18-x64-mingw32)
     gherkin (4.1.3)
-    method_source (0.8.2)
+    method_source (1.0.0)
     mini_mime (0.1.4)
     mini_portile2 (2.2.0)
     multi_json (1.12.2)
     multi_test (0.1.2)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
     nokogiri (1.8.0-x64-mingw32)
       mini_portile2 (~> 2.2.0)
-    pry (0.10.4)
-      coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
-      slop (~> 3.4)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
     public_suffix (3.0.0)
     rack (2.0.3)
     rack-test (0.7.0)
@@ -63,11 +65,11 @@ GEM
     site_prism (2.9)
       addressable (>= 2.3.3, < 3.0)
       capybara (>= 2.1, < 3.0)
-    slop (3.6.0)
     xpath (2.1.0)
       nokogiri (~> 1.3)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
